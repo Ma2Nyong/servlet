@@ -1,0 +1,22 @@
+<meta charset='utf-8'/>
+<form action='3.defaultOut.jsp'>
+	text: <input type='text' name='text'/><br> <!-- empty -->
+	number: <input type='number' name='number'/><br> <!-- empty -->
+	date: <input type='date' name='date'/><br> <!-- empty -->
+	checkbox: <input type='checkbox' name='checkbox'/><br> <!-- null -->
+	radio: <input type='radio' name='radio'/><br> <!-- null -->
+	<hr>
+	
+	text: <input type='text' name='text2' value='hello'/><br>
+	number: <input type='number' name='number2' value='12'/><br>
+	date: <input type='date' name='date2' value='2023-02-21'/><br>
+	checkbox: <input type='checkbox' name='checkbox2' value='apple' checked/><br>
+	radio: <input type='radio' name='radio2' value='grepe' checked/><br>
+	<input type='submit'/>
+</form>
+
+<!--
+form field 의 기본값은 무엇일까 살펴본다. 
+checkbox 와 radio 는 null 값이 parameter로 있는것이 아니라
+선택을 하지 않으면 parameter값이 그냥 없는것이다. 
+-->
