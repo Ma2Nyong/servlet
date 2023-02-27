@@ -1,5 +1,5 @@
 <%@ page language='java' contentType='text/html; charset=utf-8' pageEncoding='utf-8'%>
-<%@ page import='com.my.hr.service.TodayService,com.my.hr.service.TodayServiceImpl'%>
+<%@ page import='ch05.service.TodayService,ch05.service.TodayServiceImpl'%>
 <%
 	TodayService todayService = new TodayServiceImpl();
 %>
